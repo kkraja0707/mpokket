@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigated to Browser:chromeURL:https://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[Product entered in search Box:]]>
+    </line>
+    <line>
+      <![CDATA[Able to search for the product successfully]]>
+    </line>
+    <line>
+      <![CDATA[Product Added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Increased product to cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Whole product Amount in Cart₹3,740.00]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Cart is Empty and Value of CartSubtotal (0 items):]]>
+    </line>
+    <line>
+      <![CDATA[Product is removed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-11-13T08:43:17Z" name="Default suite" finished-at="2021-11-13T08:45:41Z" duration-ms="143980">
+    <groups>
+    </groups>
+    <test started-at="2021-11-13T08:43:17Z" name="Default test" finished-at="2021-11-13T08:45:41Z" duration-ms="143980">
+      <class name="org.temp.amazon.tc.TCs">
+        <test-method signature="t_01_product_search()[pri:0, instance:org.temp.amazon.tc.TCs@449a4f23]" started-at="2021-11-13T08:43:18Z" name="t_01_product_search" finished-at="2021-11-13T08:44:13Z" duration-ms="55867" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Browser:chromeURL:https://www.amazon.in/]]>
+            </line>
+            <line>
+              <![CDATA[Product entered in search Box:]]>
+            </line>
+            <line>
+              <![CDATA[Able to search for the product successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_01_product_search -->
+        <test-method signature="t_02_product_search()[pri:0, instance:org.temp.amazon.tc.TCs@449a4f23]" started-at="2021-11-13T08:44:13Z" name="t_02_product_search" finished-at="2021-11-13T08:44:45Z" duration-ms="31138" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product Added to cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_02_product_search -->
+        <test-method signature="t_03_product_search()[pri:0, instance:org.temp.amazon.tc.TCs@449a4f23]" started-at="2021-11-13T08:44:45Z" name="t_03_product_search" finished-at="2021-11-13T08:45:28Z" duration-ms="43453" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Increased product to cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Whole product Amount in Cart₹3,740.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_03_product_search -->
+        <test-method signature="t_04_product_search()[pri:0, instance:org.temp.amazon.tc.TCs@449a4f23]" started-at="2021-11-13T08:45:28Z" name="t_04_product_search" finished-at="2021-11-13T08:45:41Z" duration-ms="13245" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the Cart is Empty and Value of CartSubtotal (0 items):]]>
+            </line>
+            <line>
+              <![CDATA[Product is removed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_04_product_search -->
+      </class> <!-- org.temp.amazon.tc.TCs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
